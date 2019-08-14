@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Macpain_MasterPassword</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Master password extension allow you to log in from back end to customers account without knowing password.</summary>
+    <description>Master password extension allow you to log in from back end to customers account without knowing password. Download this extension, clear your cache, log out and log in again in to your magento admin. Configure your new extension by going in to System -&gt; Configuration then click on Master Password in Customers tab. Provide your details. The default master password is Yourpassword123. After this small configuration you can go to Customers -&gt; Manage Customers and in customer grid you will see a new Master Password column from which you can log in to each customer account. You can do the same after editing customer details from a header button. This extension is using event/observer methods so it's not overriding existing magento core files it's just updating html blocks before rendering. IMPORTANT this extension is closing previous session.</description>
+    <notes>First release</notes>
+    <authors><author><name>Marceli Podstawski</name><user>macpain</user><email>m.podstawski@centerkom.pl</email></author></authors>
+    <date>2012-12-19</date>
+    <time>00:41:28</time>
+    <contents><target name="magelocal"><dir name="Macpain"><dir name="MasterPassword"><dir name="Block"><dir name="Form"><file name="Login.php" hash="f88d8f2b85df044eb5af95aaae1785e0"/></dir></dir><dir name="Helper"><file name="Data.php" hash="5f3a43aa27d9e5f9d6fcd4e6cd80e395"/><file name="Password.php" hash="f4ae36116fbf22b470ef0fce29042671"/></dir><dir name="Model"><dir name="Adminhtml"><file name="Observer.php" hash="1c73e2ebf188daf667b113c62caa1c6d"/></dir><file name="Customer.php" hash="9cb6fdb07849367d9ef03ab0d9645502"/><dir name="Entity"><file name="Setup.php" hash="bab0acef9ec87d17f2bcc0f18da0c9d9"/></dir><file name="Password.php" hash="9393a1483c36c03ce7bb75e10d978806"/><file name="Session.php" hash="b21fa1a4516dc4d725217c6cd88c3e58"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="IndexController.php" hash="ac95d78de1b6a30fa4553f5512601d2a"/></dir><file name="IndexController.php" hash="cb3d6a79f88c6fdb22ce906177180c62"/></dir><dir name="etc"><file name="adminhtml.xml" hash="06c06024de14774e23d31664f4bd81b4"/><file name="config.xml" hash="1687cbe994585278dd087d067bacb645"/><file name="system.xml" hash="bfdeb2e31e102ee9b33bac00f290b1d4"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Macpain_MasterPassword.xml" hash="30afb003dfad9d3847d5051cf068f6ba"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="macpain_masterpassword.xml" hash="6e8c5bef340f7bd78a5b7e4230582050"/></dir><dir name="template"><dir name="macpain"><dir name="masterpassword"><dir name="form"><file name="login.phtml" hash="f5bf9402ee6c64a0e1f1d942f477fd96"/></dir></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

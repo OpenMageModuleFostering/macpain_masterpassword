@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Macpain_MasterPassword",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Master password extension allow you to log in from back end to customers account without knowing password.",
+    "authors": [
+    {
+        "name": "Marceli Podstawski",
+        "email": "m.podstawski@centerkom.pl"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
